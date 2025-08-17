@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentSave.az - Tələbə Endirimlərini Tap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="modulepreload" href="/main.js">
+    <link rel="modulepreload" href="/modules/UIManager.js">
+    <link rel="modulepreload" href="/modules/DiscountManager.js">
+    <link rel="modulepreload" href="/modules/FilterManager.js">
+    <link rel="modulepreload" href="/modules/ModalManager.js">
+    <link rel="modulepreload" href="/modules/eventBus.js">
+    <link rel="modulepreload" href="/modules/stateStore.js">
+    <link rel="modulepreload" href="/utils/helpers.js">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <i data-lucide="graduation-cap" class="logo-icon"></i>
+                Save.az
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#categories">Kateqoriyalar</a></li>
+                    <li><a href="#featured">Seçilmiş</a></li>
+                    <li><a href="#discounts">Endirimlər</a></li>
+                    <li><a href="#about">Əlavə et</a></li>
+                </ul>
+            </nav>
+            <a href="#add-discount" style="text-decoration: none;">
+            <button class="cta-button">
+                <span>Fikrini bölüş</span>
+                <i data-lucide="square-pen" class="login-icon"></i>
+            </button>
+            </a>
+            <button class="mobile-hamburger" id="hamburgerBtn">
+                <i data-lucide="menu" class="mobile-hamburger-icon"></i>
+            </button>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#progressiveSurveySection" class="menu-item">Anketə qatıl</a>
+                <a href="#endirim" class="menu-item">Endirim əlavə et</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Tələbələr üçün endirimləri tapın</h1>
+            <p>Kafelərdən geyim mağazalarına qədər, tələbə kartı ilə endirimli yerləri kəşf edin.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Axtar: kafe, mağaza, idman zalı...">
+                <a><button class="search-button">Axtar</button></a>
+                <i data-lucide="search" class="search-icon" id="search-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="secondary-section-title">Kateqoriyalar</h2>
+            <div class="category-grid">
+                <a class="category-item">
+                    <div class="category-icon-wrapper yemek">
+                        <i data-lucide="hamburger"></i>
+                    </div>
+                    <span>Yemək</span>
+                </a>
+                <a href="#discounts" class="category-item">
+                    <div class="category-icon-wrapper eylence">
+                        <i data-lucide="party-popper"></i>
+                    </div>
+                    <span>Əyləncə</span>
+                </a>
+                <a href="#discounts" class="category-item">
+                    <div class="category-icon-wrapper geyim">
+                        <i data-lucide="shopping-bag"></i>
+                    </div>
+                    <span>Geyim</span>
+                </a>
+                <a href="#discounts" class="category-item">
+                    <div class="category-icon-wrapper tehsil">
+                        <i data-lucide="school"></i>
+                    </div>
+                    <span>Təhsil</span>
+                </a>
+                <a href="#discounts" class="category-item">
+                    <div class="category-icon-wrapper kofe">
+                        <i data-lucide="coffee"></i>
+                    </div>
+                    <span>Kofe</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Discount -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <h2 class="secondary-section-title">Seçilmiş Endirim</h2>
+            <div class="featured-card" >
+                <div class="featured-image-special">
+                    <span class="discount-badge">15% ENDİRİM</span>
+                    <img src="https://images.unsplash.com/photo-1563245738-9169ff58eccf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjByZXN0YXVyYW50fGVufDB8fDB8fHww" alt="Papa John's">
+                </div>
+                <div class="featured-content">
+                    <div class="content-header">
+                        <h2>Papa John's</h2>
+                        <div class="rating" data-rating="5"></div>
+                    </div>
+                    
+                    <p class="description">Bütün tələbələr üçün xüsusi təklif! Tələbə kartınızı göstərin və bütün sifarişləriniz üçün 15% endirim əldə edin. Həftənin hər günü keçərlidir.</p>
+                    
+                    <div class="status-badges">
+                        <div class="status-badge category yemek">
+                            <i data-lucide="hamburger" class="yemek-icon"></i>
+                            <span>Yemək</span>
+                        </div>
+                        <div class="status-badge location">
+                            <i data-lucide="map-pin" class="location-icon"></i>
+                            <span>28 May, Bakı</span>
+                        </div>
+                        <div class="status-badge success">
+                            <i data-lucide="check"></i>
+                            <span>Tələbə bileti tələb olunur</span>
+                        </div>
+
+                    </div>
+
+                    <div class="mobile-description">Bütün tələbələr üçün xüsusi təklif! Tələbə kartınızı göstərin və bütün sifarişləriniz üçün 15% endirim əldə edin.</div>
+
+
+
+
+
+                    <a href="#" class="map-button">Ətraflı</a>
+
+                    <div class="card-footer">
+                        <a href="#" class="location-link">
+                            <i data-lucide="map-pin" class="footer-location-icon"></i>
+                            Xəritədə bax
+                        </a>
+                        <button class="details-button">Ətraflı</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Discounts -->
+    <section class="recent-discounts" id="discounts">
+        <div class="container">
+        
+            <div class="section-header">
+            <h2 class="secondary-section-title">Bütün endirimlər</h2>
+            
+                <div class="filters-container">
+                    <div class="sort-by">
+                        <label for="sort">Sırala:</label>
+                        <select name="sort" id="sort">
+                            <option value="">Hamısı</option>
+                            <option value="highest-discount">Ən yüksək endirimlər</option>
+                            <option value="highest-rating">Ən sevilənlər</option>
+                        </select>
+                    </div>
+                
+                    <div class="sort-by region">
+                        <label for="region">Ərazi:</label>
+                        <select name="region" id="region">
+                            <option value="all">Bütün ərazilər</option>
+                            <option value="nizami">Nizami mts.</option>
+                            <option value="28-may">28 may mts.</option>
+                            <option value="nasimi">Nəsimi mts.</option>
+                            <option value="narimanov">Nərimanov mts.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Mobile filter bubbles -->
+                <div class="mobile-filter-bubbles">
+                    <div class="filter-bubble has-dropdown" data-filter="location">
+                        
+                        <svg class="dropdown-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                        </svg>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-item selected all" data-value="all">Bütün ərazilər</div>
+                            <div class="dropdown-item" data-value="nizami">Nizami mts.</div>
+                            <div class="dropdown-item" data-value="28-may">28 may mts.</div>
+                            <div class="dropdown-item" data-value="elmlər-akademiyası">Elmlər Akademiyası mts.</div>
+                            <div class="dropdown-item" data-value="nərimanov">Nərimanov mts.</div>
+                            <div class="dropdown-item" data-value="sahil">Sahil mts.</div>
+                            <div class="dropdown-item" data-value="içərişəhər">İçərişəhər mts.</div>
+                            <div class="dropdown-item" data-value="gənclik">Gənclik mts.</div>
+                            <div class="dropdown-item" data-value="nəsimi">Nəsimi mts.</div>
+                            <div class="dropdown-item" data-value="inşaatçılar">İnşaatçılar mts.</div>
+                            <div class="dropdown-item" data-value="əhmədli">Əhmədli mts.</div>
+                        </div>
+                    </div>
+                    <div class="filter-bubble" data-filter="all">Bütün endirimlər</div>
+                    <div class="filter-bubble active" data-filter="highest-discount">Ən yüksək endirimlər</div>
+                    <div class="filter-bubble" data-filter="highest-rating">Ən sevilənlər</div>
+                </div>
+
+            <div class="discounts-grid">
+                <div id="discountContainer">
+                
+                    
+                </div>
+            </div>
+            <div class="show-more-container">
+                <button class="show-more-button">Daha çox göstər</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="add-discount">
+        <div class="container survey-container">
+            <div id="progressiveSurveySection"></div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="footer" id="about">
+    <div class="container">
+        <!-- Header Section -->
+        <div class="footer-header">
+            <h2>StudentSave.az</h2>
+            <p class="footer-subtitle">Tələbələr üçün endirim platforması</p>
+        </div>
+        
+        <!-- Main Content Grid -->
+        <div class="footer-grid">
+            <div class="footer-column footer-links">
+                <h3>Keçidlər</h3>
+                <ul>
+                    <li><a href="#home">Ana səhifə</a></li>
+                    <li><a href="#discounts">Bütün endirimlər</a></li>
+                    <li><a href="#categories">Kateqoriyalar</a></li>
+                    <li><a href="#sponsor">Sponsor ol</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Əlaqə</h3>
+                <ul>
+                    <li>Email: <a href="mailto:info@studentsave.az">info@studentsave.az</a></li>
+                    <li>Telefon: <a href="tel:+994501234567">+994 51 606 09 83</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column footer-social">
+                <h3>Bizi izləyin</h3>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i> Instagram</a>
+                    <a href="#"><i data-lucide="send"></i> TikTok</a>
+                </div>
+            </div>
+        </div>
+      
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>© 2025 StudentSave.az | Bütün hüquqlar qorunur</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Featured Discount Details Modal -->
+<div id="discountModal" class="discount-modal-overlay featured-modal" style="display:none;">
+    <div class="discount-modal-card">
+        <div class="discount-modal-header">
+            <img src="https://placehold.co/500x160?text=Student+Student" alt="Header" class="discount-modal-img" />
+            <button class="discount-modal-close" aria-label="Bağla">&times;</button>
+        </div>
+        <div class="discount-modal-content">
+            <div class="discount-modal-title-row">
+                <span class="discount-modal-title">Papa John's Pizza</span>
+                <span class="discount-modal-badge">15% ENDİRİM</span>
+            </div>
+            <div class="discount-modal-meta">
+                <span class="discount-modal-category yemek"><i data-lucide="hamburger" class="discount-modal-category-icon"></i>Yemək</span>
+                <span class="discount-modal-location"><i data-lucide="map-pin" class="discount-modal-location-icon"></i>Bakı, 28 May</span>
+                <a href="https://papajohns.az/menu" target="_blank" style="text-decoration: none;" class="discount-modal-menu-badge-link"><span class="discount-modal-menu-badge"><i data-lucide="list" class="discount-modal-menu-icon"></i>Menyu</span></a>
+            </div>
+            <div class="discount-modal-rating">
+                <span class="discount-modal-star">★</span>
+                <span class="discount-modal-rating-value">4.5</span>
+                <span class="discount-modal-reviews">(128 rəy)</span>
+            </div>
+            <div class="discount-modal-desc">
+                Papa John's Pizza Bakı filiallarında bütün tələbələr üçün xüsusi təklif! Tələbə biletini təqdim edərək bütün pizzalara 15% endirim al! Endirim bütün həftə ərzində keçərlidir və digər endirimlər və kampaniyalarla birləşdirilə bilməz. Dostlarınızla birlikdə dadlı pizzaları daddan çıxarmayın!
+            </div>
+            <div class="discount-modal-note">
+                Metal tələbə biletləri skan edilərkən endirim avtomatik tətbiq olunur. Filialda isə sadəcə tələbə biletini göstərmək kifayətdir.
+            </div>
+            <div class="discount-modal-section discount-modal-rules">
+                <div class="discount-modal-section-title">Tələblər</div>
+                <ul>
+                    <li><span class="discount-modal-rule-icon">✔️</span> Tələbə bileti təqdim olunur</li>
+                    <li><span class="discount-modal-rule-icon">🕒</span> Bazar ertəsi - Cümə 11:00-dan 18:00-dək keçərlidir</li>
+                    <li><span class="discount-modal-rule-icon">🚫</span> Digər endirimlər və kampaniyalarla birləşdirilə bilməz</li>
+                </ul>
+            </div>
+            <div class="discount-modal-section discount-modal-validity">
+                <div class="discount-modal-section-title">Etibarlılıq müddəti</div>
+                <div class="discount-modal-validity-dates">01.09.2023 – 31.12.2023</div>
+            </div>
+            
+            <div class="discount-modal-section discount-modal-contact">
+                <div class="discount-modal-section-title">Əlaqə Məlumatları</div>
+                <ul>
+                    <li><span class="discount-modal-contact-icon">📞</span> <a href="tel:+994125555555">+994 12 555 55 55</a></li>
+                    <li><span class="discount-modal-contact-icon">🌐</span> <a href="https://papajohns.az" target="_blank">papajohns.az</a></li>
+                    <li><span class="discount-modal-contact-icon">✉️</span> <a href="mailto:info@papajohns.az">info@papajohns.az</a></li>
+                    <li><span class="discount-modal-contact-icon">📷</span> <span class="discount-modal-contact-text">@papajohnsaz</span></li>
+                </ul>
+            </div>
+            
+            <div class="discount-modal-section discount-modal-branches">
+                <div class="discount-modal-section-title">Filiallar</div>
+                <ul>
+                    <li><span class="discount-modal-branch-icon">📍</span> 28 May, Bakı, AZ1009</li>
+                    <li><span class="discount-modal-branch-icon">📍</span> Gənclik Mall, Bakı, AZ1059</li>
+                </ul>
+            </div>
+            <iframe class="discount-modal-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d20293.92958281488!2d49.81071887786174!3d40.37914616194348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spapa%20john&#39;s%20pizza!5e1!3m2!1str!2saz!4v1753259304654!5m2!1str!2saz" width="550" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+<!-- Rating Modal -->
+<div id="ratingModal" class="rating-modal-overlay" style="display:none;">
+    <div class="rating-modal-card" role="dialog" aria-modal="true" aria-labelledby="ratingModalTitle">
+        <h3 id="ratingModalTitle" class="rating-modal-title">Rate your discount</h3>
+        <p class="rating-modal-subtitle">How was your experience?</p>
+        <div class="rating-stars" aria-label="Choose your rating">
+            <button type="button" class="rating-star" data-value="1" aria-label="1 star">★</button>
+            <button type="button" class="rating-star" data-value="2" aria-label="2 stars">★</button>
+            <button type="button" class="rating-star" data-value="3" aria-label="3 stars">★</button>
+            <button type="button" class="rating-star" data-value="4" aria-label="4 stars">★</button>
+            <button type="button" class="rating-star" data-value="5" aria-label="5 stars">★</button>
+        </div>
+        <button type="button" class="rating-submit">Submit</button>
+    </div>
+</div>
+    <script type="module" src="main.js"></script>
+<script src="public/survey.js"></script>
+</body>
+</html> 

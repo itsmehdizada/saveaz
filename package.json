@@ -1,0 +1,16 @@
+{
+  "name": "studentsave-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild main.js --bundle --format=esm --outfile=dist/app.bundle.js --minify",
+    "build:fast": "esbuild main.js modules/*.js utils/*.js --bundle --format=esm --outfile=dist/app.bundle.js --minify --log-level=warning",
+    "serve": "npx http-server ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "http-server": "^14.1.1"
+  }
+}
+
+
