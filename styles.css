@@ -604,6 +604,8 @@ body {
  .mobile-filter-bubbles {
     display: none;
     overflow-x: auto;
+    margin-left: -1rem;
+    margin-right: -0.5rem;
     gap: 8px;
     margin-bottom: 2.275rem;
     padding: 0;
@@ -647,6 +649,7 @@ body {
  .filter-bubble.has-dropdown {
     position: relative;
     padding-right: 35px;
+    margin-left: 1rem;
  }
  
  .filter-bubble .dropdown-icon {
