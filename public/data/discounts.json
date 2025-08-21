@@ -8,7 +8,14 @@
     "category": "yemək",
     "location": "Nizami mts.",
     "discount_amount": "10%",
-    "keywords": ["dönər", "yemək", "tələbə", "sifariş", "endirim", "fast food", "Nizami mts.", "tələbə endirimi", "təqdimat", "hər gün", "günlük təklif", "restoran", "ləziz", "kebab", "sürətli xidmət", "dost qiymət", "ət yeməyi", "tələbə kartı", "gənclər üçün", "sərin içki"],
+    "telebe+": true,
+    "keywords": [
+      "Dayı Dönər", "Dayi Doner", "Dayi Donar", "dönər", "doner", "donar", "donır",
+      "kebab", "fast food", "wrap", "sandwich", "et yeməyi", "sərin içki", "yemək",
+      "restoran", "tələbə endirimi", "tələbə kartı", "TələbəPlus", "endirim",
+      "gənclər üçün", "sürətli xidmət", "ləziz", "dost qiymət", "hər gün", "günlük təklif",
+      "Nizami mts.", "Bakı", "city", "metro"
+    ],
     "image_url": "public\\data\\images\\DayiDoner.avif.jpg"
   },
   {
@@ -21,7 +28,9 @@
     "location": "Park Bulvar",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["geyim", "moda", "tələbə", "ayaqqabı", "sport ayaqqabı", "kişilər üçün", "qadınlar üçün", "rahat", "şık", "çəkmə", "sneaker", "dəri ayaqqabı", "gündəlik istifadə", "stil sahibi", "Greyder", "Park Bulvar", "endirim", "ayaqqabı modası", "komfort", "tələbə endirimi"],
+    "keywords": [
+      "Greyder", "çanta", "canta", "ayaqqabı", "dəri ayaqqabı", "sneaker", "çizme", "bot", "aksesuar", "Park Bulvar", "Bakı", "tələbə endirimi", "TələbəPlus", "premium ayaqqabı", "komfort ayaqqabı", "moda", "geyim", "gündəlik istifadə ayaqqabısı", "kişilər üçün ayaqqabı", "qadınlar üçün ayaqqabı", "tələbə endirimləri"
+    ],
     "image_url": "public\\data\\images\\Greyder.avif"
   },
   {
@@ -34,7 +43,12 @@
     "location": "Nərimanov",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["geyim", "moda", "cins şalvar", "qadın geyimi", "kişi geyimi", "Mavi", "tələbə", "endirim", "gündəlik stil", "t-shirt", "şalvar", "gödəkçə", "Park Bulvar", "trend", "casual", "mavi jeans", "smart casual", "kətan köynək", "rahat geyim", "tələbə endirimi", "şık", "keyfiyyət", "dəb", "stil", "gənclər üçün"],
+    "keywords": [
+      "Mavi", "cins", "jeans", "cins şalvar", "cins gödəkçə", "t-shirt", "gödəkçə", "şalvar",
+      "kətan köynək", "smart casual", "casual", "rahat geyim", "qadın geyimi", "kişi geyimi",
+      "aksessuar", "tələbə endirimi", "tələbə", "tələbə kartı", "TələbəPlus", "trend", "stil",
+      "dəb", "gündəlik stil", "gənclər üçün", "Mavi Park Bulvar", "Bakı"
+    ],
     "image_url": "public\\data\\images\\Mavi.avif"
   },
   {
@@ -47,7 +61,12 @@
     "location": "Gənclik",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["təhsil", "kurs", "endirim", "tələbə", "TələbəPlus", "INNAB", "business school", "onlayn təhsil", "bakalavr", "sertifikat", "peşəkar inkişaf", "ofis proqramları", "maliyyə", "marketinq", "data", "excel", "təlim", "təcrübə", "bakıda kurs", "tələbə endirimi", "tədris mərkəzi", "kompüter bacarıqları", "CV inkişafı", "gənclər üçün", "karyera"],
+    "keywords": [
+      "təhsil", "kurs", "endirim", "tələbə", "TələbəPlus", "INNAB", "business school", "onlayn təhsil", 
+      "bakalavr", "sertifikat", "peşəkar inkişaf", "ofis proqramları", "maliyyə", "marketinq", "data", 
+      "excel", "təlim", "təcrübə", "bakıda kurs", "tələbə endirimi", "tədris mərkəzi", "kompüter bacarıqları", 
+      "CV inkişafı", "gənclər üçün", "karyera"
+    ],
     "image_url": "public\\data\\images\\INNABbusinessschool.jpg"
   },
   {
@@ -57,10 +76,12 @@
     "mobile_description": "Penti-də tələbələrə 5% endirim!",
     "rating": 4.6,
     "category": "geyim",
-    "location": "City Park Mall",
+    "location": "City Park Mall, Sovetski",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["geyim", "penti", "alt geyim", "üst geyim", "qadın geyimi", "kalqotka", "alt paltarı", "şık", "stil", "moda", "gündəlik geyim", "Penti", "tələbə", "kampaniya", "brend", "dəb", "keyfiyyət", "rahat geyim", "tələbə+", "casual", "endirimli məhsullar", "aksesuar", "stil sahibi"],
+    "keywords": [
+      "geyim", "penti", "alt geyim", "üst geyim", "qadın geyimi", "kalqotka", "alt paltarı", "şık", "stil", "moda", "gündəlik geyim", "Penti", "tələbə", "kampaniya", "brend", "dəb", "keyfiyyət", "rahat geyim", "tələbə+", "casual", "endirimli məhsullar", "aksesuar", "stil sahibi"
+    ],
     "image_url": "public\\data\\images\\Penti.avif"
   },
   {
@@ -73,20 +94,31 @@
     "location": "28 May",
     "discount_amount": "40%",
     "telebe+": true,
-    "keywords": ["pilates", "fitnes", "idman", "sağlamlıq", "tələbə", "endirim", "tələbə endirimi", "Pilates Sky", "bədən formalaşdırma", "reformer pilates", "mat pilates", "qadın sağlamlığı", "nəfəs texnikası", "stress azaldıcı", "məşq", "bakıda pilates", "rəqəmsal qeydiyyat", "kurs", "qrup dərsləri", "şəxsi məşqçi", "aktiv həyat tərzi", "bədən elastikliyi", "bel ağrısı", "çeviklik", "enerji", "Rəşid Behbudov", "28 May"]    ,
+    "keywords": [
+      "pilates", "fitnes", "idman", "sağlamlıq", "tələbə", "endirim", "tələbə endirimi", "Pilates Sky",
+      "bədən formalaşdırma", "reformer pilates", "mat pilates", "qadın sağlamlığı", "nəfəs texnikası",
+      "stress azaldıcı", "məşq", "bakıda pilates", "rəqəmsal qeydiyyat", "kurs", "qrup dərsləri",
+      "şəxsi məşqçi", "aktiv həyat tərzi", "bədən elastikliyi", "bel ağrısı", "çeviklik", "enerji",
+      "Rəşid Behbudov", "28 May"
+    ],
     "image_url": "public\\data\\images\\PilatesSky.avif"
   },
   {
     "id": 7,
     "title": "Koton",
-    "desktop_description": "TələbəPlus ilə Koton mağazasında qadın və kişi geyimlərinə 5% endirim fürsətini qaçırmayın!",
-    "mobile_description": "Koton-da tələbələrə 5% geyim endirimi!",
+    "desktop_description": "Koton mağazasında tələbə kartı ilə qadın və kişi geyimlərinə 5% endirim fürsətini qaçırma!",
+    "mobile_description": "Koton-da tələbələr üçün şık və rahat geyim endirimi!",
     "rating": 4.5,
     "category": "geyim",
     "location": "City Park Mall",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["geyim", "moda", "koton", "kişi geyimi", "qadın geyimi", "tələbə", "tələbə endirimi", "casual", "smart casual", "stil", "aksesuar", "köynək", "şalvar", "t-shirt", "ayaqqabı", "kampaniya", "endirim", "gündəlik geyim", "Port Baku", "brend", "keyfiyyət", "tələbə+", "rahat geyim", "şık", "dəb"],
+    "keywords": [
+      "geyim", "moda", "koton", "kişi geyimi", "qadın geyimi", "tələbə", "tələbə endirimi", 
+      "casual", "smart casual", "stil", "aksesuar", "köynək", "şalvar", "t-shirt", "ayaqqabı", 
+      "kampaniya", "endirim", "gündəlik geyim", "City Park Mall", "brend", "keyfiyyət", 
+      "tələbə+", "rahat geyim", "şık", "dəb", "stil sahibi", "fashion", "trend", "gənclər üçün"
+    ],
     "image_url": "public\\data\\images\\Koton.avif"
   },
   {
@@ -99,7 +131,11 @@
     "location": "Elmlər Akademiyası",
     "discount_amount": "10%",
     "telebe+": true,
-    "keywords": ["çiçək", "buketeria", "gül", "tələbə", "endirim", "tələbə endirimi", "hediyyə", "çiçək dükanı", "romantik", "açılış", "toy", "buket", "kompozisiya", "təzə güllər", "Elmlər", "bakıda gül", "stil", "aksesuar", "gül dükanı", "tələbə+", "dizayn", "eyləncə", "əlamətdar gün", "kampaniya"],
+    "keywords": [
+      "çiçək", "buketeria", "gül", "gul", "tələbə", "endirim", "tələbə endirimi", "hediyyə", "çiçək dükanı",
+      "romantik", "açılış", "toy", "buket", "kompozisiya", "təzə güllər", "Elmlər", "bakıda gül",
+      "stil", "aksesuar", "gül dükanı", "tələbə+", "dizayn", "eyləncə", "əlamətdar gün", "kampaniya"
+    ],
     "image_url": "public\\data\\images\\Buketeria.avif"
   },
   {
@@ -112,7 +148,7 @@
     "location": "28 May",
     "discount_amount": "10%",
     "telebe+": true,
-    "keywords": ["təhsil", "təlim", "texnologiya", "elektronika", "kurs", "akademiya", "endirim", "tələbə", "təlim mərkəzi", "praktiki dərs", "arduino", "robototexnika", "Nizami", "tədris", "bakıda kurs", "MIT", "təlimlər", "texniki biliklər", "programming", "startap", "tələbə+", "elmi təhsil", "təhsil platforması", "karyera"],
+    "keywords": ["təhsil", "təlim", "texnologiya", "elektronika", "kurs", "akademiya", "endirim", "tələbə", "təlim mərkəzi", "praktiki dərs", "arduino", "robototexnika", "tədris", "bakıda kurs", "MIT", "təlimlər", "texniki biliklər", "programming", "startap", "tələbə+", "elmi təhsil", "təhsil platforması", "karyera"],
     "image_url": "public\\data\\images\\MITAcademy.avif"
   },
   {
@@ -177,9 +213,21 @@
     "location": "Park Bulvar",
     "discount_amount": "5%",
     "telebe+": true,
-    "keywords": ["geyim", "tommy hilfiger", "brend", "kişi geyimi", "qadın geyimi", "tələbə", "endirim", "moda", "stil", "aksesuar", "t-shirt", "klassik", "şık", "keyfiyyət", "paltar", "Nizami", "smart casual", "casual", "tələbə endirimi", "tələbə+", "premium geyim", "klassik stil"],
+    "keywords": [
+      "geyim", "tommy hilfiger", "brend", "kişi geyimi", "qadın geyimi",
+      "tələbə", "endirim", "moda", "stil", "aksesuar", "t-shirt", "klassik",
+      "şık", "keyfiyyət", "paltar", "Nizami", "smart casual", "casual",
+      "tələbə endirimi", "tələbə+", "premium geyim", "klassik stil", 
+      "sviter", "gödəkçə", "jeans", "pantalon", "kofta", "polo köynək", "ayakkabı",
+      "çanta", "saat", "bağlı ayaqqabı", "sneaker", "dəbli t-shirt", "yüngül üst geyim",
+      "qış geyimi", "yay geyimi", "idman üslubu", "iş geyimi", "parti geyimi", 
+      "gündəlik stil", "səyahət geyimi", "rahat geyim", "şık kombin", "brend sevərlər",
+      "tələbə moda", "universitet geyimi", "gənclər üçün casual", "trend", "stil sahibi",
+      "premium aksesuar", "moda blogger", "Instagram stil", "gündəlik smart casual"
+    ],
     "image_url": "public\\data\\images\\TommyHilfiger.avif"
-  },
+  }
+  ,
   {
     "id": 15,
     "title": "Berlin Ailə və Uşaq Klinikası",
@@ -205,6 +253,28 @@
     "telebe+": true,
     "keywords": ["təhsil", "xarici dil", "alman dili", "ingilis dili", "öst imtahanı", "studienkolleg", "imtahan hazırlığı", "german", "english", "beynəlxalq imtahan", "tələbə endirimi", "tələbə+", "15% endirim", "kurs", "təhsil mərkəzi", "ari təhsil", "avstriya", "isveçrə", "xaricdə təhsil", "Bakı"],
     "image_url": "public\\data\\images\\ARITehsil.avif"
+  },
+  {
+    "id": 17,
+    "title": "Coccinelle",
+    "desktop_description": "Park Bulvarda yerləşən Coccinelle çanta mağazasında TələbəPlus kartı ilə 5% endirim!",
+    "mobile_description": "Premial çantalar, xüsusi 5% endirim TələbəPlus-a!",
+    "rating": 4.5,
+    "category": "geyim",
+    "location": "Park Bulvar, Baku",
+    "discount_amount": "5%",
+    "telebe+": true,
+    "keywords": [
+  "Coccinelle", "çanta", "canta", "çanta mağazası", "canta magazasi",
+  "premium çanta", "premium canta", "aksesuar", "aksesuarlar",
+  "dəri çanta", "deri canta", "handbag", "purse", "italyan çanta markası",
+  "italyan moda", "italian fashion", "luxury fashion", "fashion store",
+  "Park Bulvar", "Park Bulvar çanta", "Park Bulvar canta",
+  "Bakı çanta mağazası", "Baku handbag", "Neftçilər prospekti mağaza",
+  "moda", "geyim", "student discount", "TələbəPlus", "Tələbə Plus",
+  "endirim", "çanta endirimi", "canta endirimi", "aksesuar endirimi"
+],
+    "image_url": "public\\data\\images\\CoccinelleParkBulvar.avif"
   }
   
 ]
