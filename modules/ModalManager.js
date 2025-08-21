@@ -51,7 +51,7 @@ export class ModalManager {
         badge: dBadge?.textContent || '',
         categoryHTML: dCategory?.innerHTML || '',
         categoryClass: dCategory?.className || '',
-        location: dLocation?.textContent || '',
+        locationHTML: dLocation?.innerHTML || '', // Store full HTML instead of just text
         star: dStar?.textContent || '',
         rating: dRating?.textContent || '',
         desc: dDesc?.textContent || '',
@@ -258,7 +258,23 @@ export class ModalManager {
     setSrc('.discount-modal-img', modalData.image_url);
     setText('.discount-modal-title', modalData.title);
     setText('.discount-modal-badge', `${modalData.discount_amount} ENDİRİM`);
-    setText('.discount-modal-location', (modalData.locations && modalData.locations[0]) || '');
+    
+    // Fix: Handle location with icon preservation
+    const locationEl = $('.discount-modal-location');
+    if (locationEl && (modalData.locations && modalData.locations[0])) {
+      // Clear the element and rebuild with icon + text
+      locationEl.innerHTML = '';
+      
+      // Create and add the icon
+      const iconEl = document.createElement('i');
+      iconEl.setAttribute('data-lucide', 'map-pin');
+      iconEl.className = 'discount-modal-location-icon';
+      locationEl.appendChild(iconEl);
+      
+      // Add the location text
+      locationEl.appendChild(document.createTextNode(this.security.sanitizeText(modalData.locations[0])));
+    }
+    
     setText('.discount-modal-rating-value', modalData.rating);
     const reviewsEl = $('.discount-modal-reviews');
     if (reviewsEl) reviewsEl.style.display = 'none';
@@ -379,7 +395,7 @@ export class ModalManager {
     if (dTitle) dTitle.textContent = d.title;
     if (dBadge) dBadge.textContent = d.badge;
     if (dCategory) { dCategory.className = d.categoryClass; dCategory.innerHTML = d.categoryHTML; }
-    if (dLocation) dLocation.textContent = d.location;
+    if (dLocation) dLocation.innerHTML = d.locationHTML;
     if (dStar) dStar.textContent = d.star;
     if (dRating) dRating.textContent = d.rating;
     const reviewsEl = this.discountModal.querySelector('.discount-modal-reviews');
