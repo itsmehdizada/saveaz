@@ -1,31 +1,30 @@
 [
-    {
-        "id": 1,
-        "title": "Dayı Dönər",
-        "discount_amount": "10%",
-        "description": "Tələbə kartınızı təqdim edin və bütün sifarişləriniz üçün 10% endirim əldə edin. Həftənin hər günü keçərlidir.",
-        "sub-description": "Sifarişlərə 10% endirim!",
-        "rating": "5.0",
-        "reviews": "(128)",
-        "category": "yemək",
-        "locations": ["Nizami"],
-        "valid_from_until": ["Hal hazırda qüvvədədir"],
-        "requirements": ["Tələbə kartı tələb olunur"],
-        "image_url": "public\\data\\images\\DayiDoner.avif.jpg",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.535538392832!2d49.824817975148086!3d40.38460785759507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb0e11bec7%3A0x26204c2b5ad8c10c!2zRGF5xLEgRMO2bsmZcg!5e1!3m2!1str!2saz!4v1753259661527!5m2!1str!2saz",
-        "menu_url": "https://www.instagram.com/stories/highlights/17947271038652907/",
-        "contact_info": [
-    
-    { "type": "phone", "value": "+994 50 999 92 54" },
-    { "type": "phone", "value": "+994 99 777 72 54" },
-    { "type": "instagram", "value": "@dayidonerbakuu" }
-]
-      },
+  {
+    "id": 1,
+    "title": "Dayı Dönər",
+    "discount_amount": "10%",
+    "description": "Dayı Dönər, Nizami mts.-də yerləşən və tələbələr üçün xüsusi endirimlər təqdim edən bir fast food restoranıdır. Həftənin hər günü bütün sifarişlərə 10% endirim əldə edə bilərsiniz. Sürətli xidmət və ləzzətli dönərləri ilə tanınır.",
+    "sub-description": "Dönərin dadı + tələbə endirimi = mükəmməl kombo!",
+    "rating": 5,
+    "reviews": "(128)",
+    "category": "yemək",
+    "locations": ["Nizami mts."],
+    "valid_from_until": ["Hal hazırda qüvvədədir"],
+    "requirements": ["Tələbə kartı tələb olunur"],
+    "menu_url": "https://www.instagram.com/stories/highlights/17947271038652907/",
+    "contact_info": [
+      { "type": "phone", "value": "+994 50 999 92 54" },
+      { "type": "phone", "value": "+994 99 777 72 54" },
+      { "type": "instagram", "value": "@dayidonerbakuu" }
+    ],
+    "image_url": "public\\data\\images\\DayiDoner.avif.jpg",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.535538392832!2d49.824817975148086!3d40.38460785759507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb0e11bec7%3A0x26204c2b5ad8c10c!2zRGF5xLEgRMO2bsmZcg!5e1!3m2!1str!2saz!4v1753259661527!5m2!1str!2saz"
+  },
       {
         "id": 2,
         "title": "Greyder",
         "discount_amount": "5%",
-        "description": "Rahatlıq və modanı bir arada yaşayın! Park Bulvar mağazamızdan Greyder-in keyfiyyətli və dəbli ayaqqabı kolleksiyasını endirimlə seçin. Tələbələrə xüsusi təkliflər mövcuddur.",
+        "description": "Greyder, 60 illik təcrübəyə malik və 100% dəri məhsulları ilə tanınan bir markadır. Park Bulvar mağazasında tələbə kartı ilə ayaqqabılara 5% endirim əldə edə bilərsiniz. Gündəlik istifadə üçün ideal olan modellər sizi gözləyir.",
         "sub-description": "İstədiyin ayaqqabını seç, endirimlə əldə et.",
         "rating": 4.8,
         "reviews": "(128)",
@@ -33,6 +32,10 @@
         "locations": ["Park Bulvar"],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
+        "contact_info": [
+          { "type": "phone", "value": "+994 12 598 72 28" },
+          { "type": "instagram", "value": "@greyder" }
+        ],
         "image_url": "public\\data\\images\\Greyder.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
       },
@@ -40,14 +43,17 @@
         "id": 3,
         "title": "Mavi",
         "discount_amount": "5%",
-        "description": "Mavi mağazasında tələbə kartı ilə cins geyimlərə və aksesuarlara 5% endirim qazanın!",
-        "sub-description": "Geyimlərə 5% endirim!",
+        "description": "Mavi mağazasında tələbə kartınızı təqdim edərək cins geyimlərə və aksesuarlara 5% endirim əldə edin. Gündəlik stilinizi Mavi ilə tamamlayın və özünüzü rahat hiss edin!",
+        "sub-description": "Gündəlik stilinizi Mavi ilə tamamlayın!",
         "rating": 4.7,
         "reviews": "(128)",
         "category": "geyim",
         "locations": ["Park Bulvar"],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
+        "contact_info": [
+          { "type": "instagram", "value": "@mavi" }
+        ],
         "image_url": "public\\data\\images\\Mavi.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
       },
@@ -64,28 +70,37 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\INNABbusinessschool.jpg",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4030.5692797970987!2d49.854651274376785!3d40.40174462950292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9beedfbb45%3A0x901b794894c03182!2s%C4%B0nnab%20Business%20School!5e1!3m2!1str!2saz!4v1753560148139!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4030.5692797970987!2d49.854651274376785!3d40.40174462950292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9beedfbb45%3A0x901b794894c03182!2s%C4%B0nnab%20Business%20School!5e1!3m2!1str!2saz!4v1753560148139!5m2!1str!2saz",
+        "contact_info": [
+            { "type": "phone", "value": "+994 50 290 61 21" },
+            { "type": "phone", "value": "+994 70 290 61 21" },
+            { "type": "instagram", "value": "@innab.az" }
+          ]
       },
       {
         "id": 5,
         "title": "Penti",
         "discount_amount": "5%",
-        "description": "TələbəPlus ilə Penti mağazasında 5% endirim fürsətini qaçırmayın!",
-        "sub-description": "Penti-də 5% endirim!",
+        "description": "Penti mağazasında tələbələr üçün 5% endirim fürsəti sizi gözləyir! Alt və üst geyimlərdən kalqotka, trikotaj və aksesuarlara qədər geniş seçimlə stilini tamamla. Rahat və şık məhsullar gündəlik geyimdən xüsusi tərzə qədər hər ehtiyaca uyğundur.",
+        "sub-description": "Penti-də tələbələrə 5% endirim!",
         "rating": 4.6,
         "reviews": "(93)",
         "category": "geyim",
-        "locations": ["City Park Mall", "Sovetski"],
+        "locations": ["City Park Mall"],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Penti.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.349008512312!2d49.891190699999996!3d40.38956100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063a954c714a3%3A0xd5a6124902115bc5!2sCity%20Park%20Mall!5e1!3m2!1str!2saz!4v1754302426766!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.349008512312!2d49.891190699999996!3d40.38956100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063a954c714a3%3A0xd5a6124902115bc5!2sCity%20Park%20Mall!5e1!3m2!1str!2saz!4v1754302426766!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 55 214 16 55" },
+          { "type": "instagram", "value": "@penti_azerbaijan" }
+        ]
       },
       {
         "id": 6,
         "title": "Pilates Sky",
         "discount_amount": "40%",
-        "description": "Pilates Sky Wellness & SPA-nın Rəşid Behbudov filialında TələbəPlus sahiblərinə 40% endirim fürsəti səni gözləyir! ✨",
+        "description": "Pilates Sky Wellness & SPA-nın Rəşid Behbudov filialında TələbəPlus sahiblərinə 40% endirim fürsəti səni gözləyir! ✨ Reformer və mat pilates dərsləri, qrup və fərdi məşqlər, stress azaldıcı texnikalar və sağlam bədən formalaşdırma proqramları ilə sağlamlığını artır!",
         "sub-description": "Hədəfin sağlamlıqdırsa, bu fürsəti qaçırma!",
         "rating": 4.8,
         "reviews": "(76)",
@@ -94,14 +109,21 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\PilatesSky.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.5401701956885!2d49.8388732751481!3d40.38448485760265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d0001ad7489%3A0xdf57b19c5cc3fae0!2sPilates%20Sky%20RB!5e1!3m2!1str!2saz!4v1754308166239!5m2!1str!2saz"
-      },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.5401701956885!2d49.8388732751481!3d40.38448485760265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d0001ad7489%3A0xdf57b19c5cc3fae0!2sPilates%20Sky%20RB!5e1!3m2!1str!2saz!4v1754308166239!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 50 520 87 80" },
+          { "type": "phone", "value": "+994 12 310 34 10" },
+          { "type": "instagram", "value": "@pilatesskybaku" },
+          { "type": "website", "value": "https://pilatessky.az" }
+        ]
+      }
+      ,
       {
         "id": 7,
         "title": "Koton",
         "discount_amount": "5%",
-        "description": "TələbəPlus ilə Koton mağazasında 5% endirim fürsətindən yararlanın!",
-        "sub-description": "Koton-da 5% endirim!",
+        "description": "Koton mağazasında tələbələrə özəl 5% endirim fürsətini qaçırmayın! Qadın və kişi geyimləri ilə gündəlik tərzini yeniləmək, rahat və şık məhsullarla stilini tamam etmək üçün ideal fürsət. TələbəPlus kartı ilə bu endirimdən yararlan!",
+        "sub-description": "Koton-da tələbələr üçün endirimlə alış-veriş et!",
         "rating": 4.5,
         "reviews": "(112)",
         "category": "geyim",
@@ -109,7 +131,10 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Koton.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.349008512312!2d49.891190699999996!3d40.38956100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063a954c714a3%3A0xd5a6124902115bc5!2sCity%20Park%20Mall!5e1!3m2!1str!2saz!4v1754302426766!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.349008512312!2d49.891190699999996!3d40.38956100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063a954c714a3%3A0xd5a6124902115bc5!2sCity%20Park%20Mall!5e1!3m2!1str!2saz!4v1754302426766!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "instagram", "value": "@koton.azerbaijan" }
+        ]
       },
       {
         "id": 8,
@@ -124,29 +149,38 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Buketeria.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.8980957285366!2d49.871580294895104!3d40.39680358994809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d006f04e619%3A0x4d3c138a98bac937!2sBuketeria!5e1!3m2!1str!2saz!4v1754310127459!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.8980957285366!2d49.871580294895104!3d40.39680358994809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d006f04e619%3A0x4d3c138a98bac937!2sBuketeria!5e1!3m2!1str!2saz!4v1754310127459!5m2!1str!2saz",
+        "contact": [
+          {"type": "phone", "value": "+994 50 964 22 44"},
+          {"type": "instagram", "value": "@buketeria.az"}
+        ]
       },
       {
         "id": 9,
         "title": "MIT Academy",
         "discount_amount": "10%",
-        "description": "MIT Academy TələbəPlus sahiblərinə 10% endirim təqdim edir! 💙",
-        "sub-description": "Bu fürsəti qaçırma! 😉",
+        "description": "MIT Academy tələbələr üçün texnologiya və elektronika sahələrində praktiki və əyləncəli təlim imkanları təqdim edir. Arduino, robototexnika və proqramlaşdırma dərsləri ilə bacarıqlarını inkişaf etdir və karyerana güclü bir addım at!",
+        "sub-description": "İndi biliklərini inkişaf etdirmək daha sərfəlidir!",
         "rating": 4.7,
-        "reviews": "(89)",
+        "reviews": "(64)",
         "category": "təhsil",
         "locations": ["28 May"],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\MITAcademy.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.543555546647!2d49.83851767514816!3d40.384394957608095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307de28bc878af%3A0x5e324b5681f291aa!2sM%C4%B0T%20Academy!5e1!3m2!1str!2saz!4v1754563965163!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.535538392832!2d49.824817975148086!3d40.38460785759507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb0e11bec7%3A0x26204c2b5ad8c10c!2sMIT%20Academy!5e1!3m2!1str!2saz!4v1753259661527!5m2!1str!2saz",
+        "contact": [
+          {"type": "phone", "value": "+994 70 292 92 70"},
+          {"type": "email", "value": "info@mitacademy.edu.az"},
+          {"type": "instagram", "value": "@mitacademy.az"}
+        ]
       },
       {
         "id": 10,
         "title": "Joma",
         "discount_amount": "10%",
-        "description": "Yeni kolleksiyaya 10%, endirimli məhsullara isə əlavə 5% endirim TələbəPlus kartı ilə sənin olsun",
-        "sub-description": "TələbəPlus sahiblərinə ikili fürsət Joma Park Bulvar filialında!",
+        "description": "Joma Park Bulvar filialında TələbəPlus kartı sahibləri üçün idman geyimlərində xüsusi fürsət! Yeni kolleksiya üçün 10% endirim, artıq endirimdə olan məhsullara isə əlavə fürsət. Aktiv həyat tərzin üçün rahat və keyfiyyətli məhsullar burada səni gözləyir.",
+        "sub-description": "İdman tərzini yenilə, üstünlüklərdən yararlan!",
         "rating": 4.6,
         "reviews": "(64)",
         "category": "geyim",
@@ -154,14 +188,17 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Joma.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz",
+        "contact": [
+          {"type": "instagram", "value": "@joma_azerbaijan"}
+        ]
       },
       {
         "id": 11,
         "title": "Blue Optika",
         "discount_amount": "10%",
-        "description": "Blue Optika mağazasında TələbəPlus kartı ilə eynək və optik məhsullara 10% endirim fürsəti!",
-        "sub-description": "Blue Optika-da tələbələrə 10% endirim fürsəti!",
+        "description": "Blue Optika mağazasında TələbəPlus kartı sahibləri üçün eynəklər və optik məhsullarda 10% endirim fürsəti! Şəffaf və brend gözlüklərdən gündəlik istifadə üçün rahat modellərə qədər geniş seçim. Görmə sağlamlığını qoruyarkən stilindən də vaz keçmə!",
+        "sub-description": "Gözlərin və stilin üçün xüsusi fürsət!",
         "rating": 4.8,
         "reviews": "(41)",
         "category": "geyim",
@@ -169,14 +206,18 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\BlueOptika.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.6317731758445!2d49.83848227634489!3d40.37932075761213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d069c7cfa3b%3A0x9f42022884cf48d7!2sBlue%20Optics!5e0!3m2!1str!2saz!4v1754568330171!5m2!1str!2saz"
-      },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.6317731758445!2d49.83848227634489!3d40.37932075761213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d069c7cfa3b%3A0x9f42022884cf48d7!2sBlue%20Optics!5e0!3m2!1str!2saz!4v1754568330171!5m2!1str!2saz",
+        "contact": [
+          {"type": "instagram", "value": "@blueoptika"}
+        ]
+      }
+      ,
       {
         "id": 12,
         "title": "Calvin Klein",
         "discount_amount": "5%",
-        "description": "TələbəPlus kartını göstər, sadə və iddialı görünüşünü endirimlə tamamla. ",
-        "sub-description": "Calvin Klein-də tələbələrə 5% endirim fürsəti!",
+        "description": "TələbəPlus kartını göstər və Calvin Klein-in premium kolleksiyasından seçdiyin geyim və aksesuarlara 5% endirimlə sahib ol. Sadə, şık və iddialı görünüşünü Park Bulvar filialında tamamla!",
+        "sub-description": "Stilini yüksəlt və endirim fürsətini qaçırma!",
         "rating": 4.9,
         "reviews": "(72)",
         "category": "geyim",
@@ -184,8 +225,15 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\CalvinKlein.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
-      },
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 51 230 60 12 - Crescent Mall" },
+          { "type": "phone", "value": "+994 51 229 83 91 - Gənclik Mall" },
+          { "type": "phone", "value": "+994 50 275 93 86 - Park Bulvar AVM" },
+          { "type": "instagram", "value": "@ckj_baku" }
+        ]
+      }
+      ,
       {
         "id": 13,
         "title": "Liu Jo",
@@ -199,7 +247,12 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\LiuJo.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 12 598 71 40" },
+          { "type": "email", "value": "nigar.vruzi@vco.com" },
+          { "type": "website", "value": "https://stores.liujo.com/en/azerbaijan/baku-park-boulevard-shopping-centre" }
+        ]
       },
       {
         "id": 14,
@@ -214,7 +267,12 @@
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\TommyHilfiger.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 50 275 93 60" },
+          { "type": "instagram", "value": "@th_baku" },
+          { "type": "website", "value": "https://global.tommy.com" }
+        ]
       },
       {
         "id": 15,
@@ -245,5 +303,20 @@
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\ARITehsil.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.0560499930535!2d49.85190307515951!3d40.377194271445914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dde4a95ef6d%3A0x7a1e321d74b5d4da!2sARI%20Beyn%C9%99lxalq%20T%C9%99hsil%20M%C9%99rk%C9%99zi!5e0!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz"
+    },
+    {
+      "id": 17,
+      "title": "Coccinelle",
+      "discount_amount": "5%",
+      "description": "İtalyan dəbli üslubunu əks etdirən Coccinelle, yüksək keyfiyyətli dəri çantaları və gündəlik tərzə uyğun müasir dizaynları ilə tanınır. Park Bulvarda yerləşən mağazada TələbəPlus kartı ilə alış-veriş edənlər bütün məhsullara 5% endirim əldə edirlər.",
+      "sub-description": "Keyfiyyətli materiallar və italyan dəbli minimalizmi ilə seçilən kolleksiyalar indi tələbələr üçün daha əlçatan.",
+      "rating": 4.5,
+      "reviews": "(—)",
+      "category": "geyim",
+      "locations": ["Park Bulvar, Baku"],
+      "valid_from_until": ["Hal-hazırda qüvvədədir"],
+      "requirements": ["TələbəPlus kartı tələb olunur"],
+      "image_url": "public\\data\\images\\CoccinelleParkBulvar.avif",
+      "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11677.587!2d49.8001!3d40.3881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030870772989ee3%3A0xd2121de0b16e18c3!2sCoccinelle%20Park%20Bulvar!5e0!3m2!1sen!2saz!4v0000000000000"
     }
 ]
