@@ -84,17 +84,52 @@ export class DiscountManager {
     card.className = 'discount-card';
     card.setAttribute('data-modal-id', this.security.sanitizeText(discount.id));
 
-    // Image container
-    const cardImage = document.createElement('div');
-    cardImage.className = 'card-image';
-    const img = document.createElement('img');
-    // Lazy: load first 6 images immediately for perceived performance
-    const src = this.security.sanitizeUrl(discount.image_url);
-    if (indexInAll < 6) {
-      img.src = src;
-    } else {
-      img.dataset.src = src;
-    }
+
+// Image container
+const cardImage = document.createElement('div');
+cardImage.className = 'card-image';
+const img = document.createElement('img');
+
+// Build responsive sources from new fields
+const mobileSrc = this.security.sanitizeUrl(discount.mobile_image_url || '');
+const desktopSrc = this.security.sanitizeUrl(discount.desktop_image_url || mobileSrc);
+
+// Apply src/srcset lazily for performance
+if (indexInAll < 6) {
+  // Immediate loading - set mobile as default src
+  img.src = mobileSrc;
+  if (mobileSrc && desktopSrc && mobileSrc !== desktopSrc) {
+    // Use JavaScript to handle responsive switching
+    img.dataset.mobileSrc = mobileSrc;
+    img.dataset.desktopSrc = desktopSrc;
+    
+    // Set initial source based on screen size
+    const updateImageSource = () => {
+      if (window.innerWidth >= 768) {
+        img.src = desktopSrc;
+      } else {
+        img.src = mobileSrc;
+      }
+    };
+    
+    updateImageSource();
+    
+    // Listen for resize events to switch images
+    let resizeTimeout;
+    const handleResize = () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateImageSource, 100);
+    };
+    window.addEventListener('resize', handleResize);
+  }
+} else {
+  // Lazy loading - store sources in data attributes
+  img.dataset.src = window.innerWidth >= 768 ? (desktopSrc || mobileSrc) : mobileSrc;
+  if (mobileSrc && desktopSrc && mobileSrc !== desktopSrc) {
+    img.dataset.mobileSrc = mobileSrc;
+    img.dataset.desktopSrc = desktopSrc;
+  }
+}
     img.alt = this.security.sanitizeText(discount.title);
     img.onerror = function() { this.onerror = null; this.src = `https://placehold.co/300x200?text=${encodeURIComponent(discount.title)}`; };
     const badge = this.security.createSecureElement('div', `${this.security.sanitizeText(discount.discount_amount)} ENDİRİM`, 'discount-badge');
@@ -179,7 +214,11 @@ export class DiscountManager {
     if (!img.src) {
       const io = this.helpers.ensureObserver((imgEl) => {
         const dataSrc = imgEl.dataset.src;
+        const dataSrcset = imgEl.dataset.srcset;
+        const dataSizes = imgEl.dataset.sizes;
         if (dataSrc) imgEl.src = dataSrc;
+        if (dataSrcset) imgEl.srcset = dataSrcset;
+        if (dataSizes) imgEl.sizes = dataSizes;
       });
       io.observe(img);
     }
