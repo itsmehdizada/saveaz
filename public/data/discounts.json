@@ -16,7 +16,8 @@
       "gənclər üçün", "sürətli xidmət", "ləziz", "dost qiymət", "hər gün", "günlük təklif",
       "Nizami mts.", "Bakı", "city", "metro"
     ],
-    "image_url": "public\\data\\images\\DayiDoner.avif.jpg"
+    "mobile_image_url": "public\\data\\images\\DayiDoner.avif.jpg",
+    "desktop_image_url": "public\\data\\images\\DayiDoner.avif.jpg"
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
     "keywords": [
       "Greyder", "çanta", "canta", "ayaqqabı", "dəri ayaqqabı", "sneaker", "çizme", "bot", "aksesuar", "Park Bulvar", "Bakı", "tələbə endirimi", "TələbəPlus", "premium ayaqqabı", "komfort ayaqqabı", "moda", "geyim", "gündəlik istifadə ayaqqabısı", "kişilər üçün ayaqqabı", "qadınlar üçün ayaqqabı", "tələbə endirimləri"
     ],
-    "image_url": "public\\data\\images\\Greyder.avif"
+    "mobile_image_url": "public\\data\\images\\Greyder.avif",
+    "desktop_image_url": "public\\data\\images\\Greyder.avif"
   },
   {
     "id": 3,
@@ -49,7 +51,8 @@
       "aksessuar", "tələbə endirimi", "tələbə", "tələbə kartı", "TələbəPlus", "trend", "stil",
       "dəb", "gündəlik stil", "gənclər üçün", "Mavi Park Bulvar", "Bakı"
     ],
-    "image_url": "public\\data\\images\\Mavi.avif"
+    "mobile_image_url": "public\\data\\images\\Mavi.avif",
+    "desktop_image_url": "public\\data\\images\\Mavi.avif"
   },
   {
     "id": 4,
@@ -67,7 +70,8 @@
       "excel", "təlim", "təcrübə", "bakıda kurs", "tələbə endirimi", "tədris mərkəzi", "kompüter bacarıqları", 
       "CV inkişafı", "gənclər üçün", "karyera"
     ],
-    "image_url": "public\\data\\images\\INNABbusinessschool.jpg"
+    "mobile_image_url": "public\\data\\images\\INNABbusinessschool.jpg",
+    "desktop_image_url": "public\\data\\images\\INNABbusinessschool.jpg"
   },
   {
     "id": 5,
@@ -82,7 +86,8 @@
     "keywords": [
       "geyim", "penti", "alt geyim", "üst geyim", "qadın geyimi", "kalqotka", "alt paltarı", "şık", "stil", "moda", "gündəlik geyim", "Penti", "tələbə", "kampaniya", "brend", "dəb", "keyfiyyət", "rahat geyim", "tələbə+", "casual", "endirimli məhsullar", "aksesuar", "stil sahibi"
     ],
-    "image_url": "public\\data\\images\\Penti.avif"
+    "mobile_image_url": "public\\data\\images\\Penti.avif",
+    "desktop_image_url": "public\\data\\images\\Penti.avif"
   },
   {
     "id": 6,
@@ -101,7 +106,8 @@
       "şəxsi məşqçi", "aktiv həyat tərzi", "bədən elastikliyi", "bel ağrısı", "çeviklik", "enerji",
       "Rəşid Behbudov", "28 May"
     ],
-    "image_url": "public\\data\\images\\PilatesSky.avif"
+    "mobile_image_url": "public\\data\\images\\mobile\\PilatesSkyMobile.webp",
+    "desktop_image_url": "public\\data\\images\\desktop\\PilatesSkyDesktop.webp"
   },
   {
     "id": 7,
@@ -119,7 +125,8 @@
       "kampaniya", "endirim", "gündəlik geyim", "City Park Mall", "brend", "keyfiyyət", 
       "tələbə+", "rahat geyim", "şık", "dəb", "stil sahibi", "fashion", "trend", "gənclər üçün"
     ],
-    "image_url": "public\\data\\images\\Koton.avif"
+    "mobile_image_url": "public\\data\\images\\Koton.avif",
+    "desktop_image_url": "public\\data\\images\\Koton.avif"
   },
   {
     "id": 8,
@@ -136,7 +143,8 @@
       "romantik", "açılış", "toy", "buket", "kompozisiya", "təzə güllər", "Elmlər", "bakıda gül",
       "stil", "aksesuar", "gül dükanı", "tələbə+", "dizayn", "eyləncə", "əlamətdar gün", "kampaniya"
     ],
-    "image_url": "public\\data\\images\\Buketeria.avif"
+    "mobile_image_url": "public\\data\\images\\Buketeria.avif",
+    "desktop_image_url": "public\\data\\images\\Buketeria.avif"
   },
   {
     "id": 9,
@@ -149,7 +157,8 @@
     "discount_amount": "10%",
     "telebe+": true,
     "keywords": ["təhsil", "təlim", "texnologiya", "elektronika", "kurs", "akademiya", "endirim", "tələbə", "təlim mərkəzi", "praktiki dərs", "arduino", "robototexnika", "tədris", "bakıda kurs", "MIT", "təlimlər", "texniki biliklər", "programming", "startap", "tələbə+", "elmi təhsil", "təhsil platforması", "karyera"],
-    "image_url": "public\\data\\images\\MITAcademy.avif"
+    "mobile_image_url": "public\\data\\images\\MITAcademy.avif",
+    "desktop_image_url": "public\\data\\images\\MITAcademy.avif"
   },
   {
     "id": 10,
@@ -162,7 +171,8 @@
     "discount_amount": "10%",
     "telebe+": true,
     "keywords": ["idman geyimi", "joma", "idman", "t-shirt", "şort", "tələbə", "tələbə endirimi", "brend", "rahat geyim", "aktiv həyat", "sportwear", "dəb", "bakıda idman malları", "Fəvvarələr", "kampaniya", "casual", "keyfiyyət", "aksesuar", "idman ayaqqabısı", "forma", "tələbə+", "şık", "enerji", "gündəlik stil"],
-    "image_url": "public\\data\\images\\Joma.avif"
+    "mobile_image_url": "public\\data\\images\\Joma.avif",
+    "desktop_image_url": "public\\data\\images\\Joma.avif"
   },
   {
     "id": 11,
@@ -175,7 +185,8 @@
     "discount_amount": "10%",
     "telebe+": true,
     "keywords": ["optika", "eynek", "blue optika", "gözlük", "aksesuar", "şəffaf eynək", "slinqlər", "endirim", "tələbə endirimi", "görmə", "brend eynəklər", "optik məhsullar", "moda", "stil", "görmə vasitəsi", "dəb", "tələbə+", "rahat", "28 May", "gözlük kampaniyası"],
-    "image_url": "public\\data\\images\\BlueOptika.avif"
+    "mobile_image_url": "public\\data\\images\\BlueOptika.avif",
+    "desktop_image_url": "public\\data\\images\\BlueOptika.avif"
   },
   {
     "id": 12,
@@ -188,7 +199,8 @@
     "discount_amount": "5%",
     "telebe+": true,
     "keywords": ["geyim", "calvin klein", "brend", "moda", "kişi geyimi", "qadın geyimi", "endirim", "tələbə", "casual", "smart casual", "şık", "aksesuar", "t-shirt", "şalvar", "gödəkçə", "stil", "tələbə endirimi", "tələbə+", "klassik", "dəb", "Port Baku", "premium", "keyfiyyət"],
-    "image_url": "public\\data\\images\\CalvinKlein.avif"
+    "mobile_image_url": "public\\data\\images\\CalvinKlein.avif",
+    "desktop_image_url": "public\\data\\images\\CalvinKlein.avif"
   },
   {
     "id": 13,
@@ -201,7 +213,8 @@
     "discount_amount": "5%",
     "telebe+": true,
     "keywords": ["geyim", "liu jo", "qadın geyimi", "stil", "dəb", "şalvar", "t-shirt", "aksesuar", "paltar", "tələbə", "endirim", "moda", "şık", "tələbə endirimi", "tələbə+", "premium", "klassik", "Gənclik Mall", "keyfiyyətli brend", "xanımlar üçün", "stil sahibi"],
-    "image_url": "public\\data\\images\\LiuJo.avif"
+    "mobile_image_url": "public\\data\\images\\LiuJo.avif",
+    "desktop_image_url": "public\\data\\images\\LiuJo.avif"
   },
   {
     "id": 14,
@@ -225,7 +238,8 @@
       "tələbə moda", "universitet geyimi", "gənclər üçün casual", "trend", "stil sahibi",
       "premium aksesuar", "moda blogger", "Instagram stil", "gündəlik smart casual"
     ],
-    "image_url": "public\\data\\images\\TommyHilfiger.avif"
+    "mobile_image_url": "public\\data\\images\\TommyHilfiger.avif",
+    "desktop_image_url": "public\\data\\images\\TommyHilfiger.avif"
   }
   ,
   {
@@ -239,7 +253,8 @@
     "discount_amount": "50%",
     "telebe+": true,
     "keywords": ["tibb", "klinika", "endirim", "tələbə", "TələbəPlus", "Berlin Klinika", "uroloji əməliyyat", "ümumi cərrahiyyə", "plastik əməliyyat", "estetik əməliyyat", "alqologiya", "ağrı müalicəsi", "laboratoriya", "diaqnostika", "tibbi xidmət", "səhiyyə", "sağlamlıq", "əlçatan qiymət", "peşəkar həkimlər", "bakıda klinika", "check-up", "analiz", "cərrahiyyə", "xəstəxana", "müalicə"]    ,
-    "image_url": "public\\data\\images\\BerlinAile.avif"
+    "mobile_image_url": "public\\data\\images\\mobile\\BerlinAileMobile.webp",
+    "desktop_image_url": "public\\data\\images\\desktop\\BerlinAileDesktop.webp"
   },
   {
     "id": 16,
@@ -252,7 +267,8 @@
     "discount_amount": "15%",
     "telebe+": true,
     "keywords": ["təhsil", "xarici dil", "alman dili", "ingilis dili", "öst imtahanı", "studienkolleg", "imtahan hazırlığı", "german", "english", "beynəlxalq imtahan", "tələbə endirimi", "tələbə+", "15% endirim", "kurs", "təhsil mərkəzi", "ari təhsil", "avstriya", "isveçrə", "xaricdə təhsil", "Bakı"],
-    "image_url": "public\\data\\images\\ARITehsil.avif"
+    "mobile_image_url": "public\\data\\images\\ARITehsil.avif",
+    "desktop_image_url": "public\\data\\images\\ARITehsil.avif"
   },
   {
     "id": 17,
@@ -274,7 +290,8 @@
   "moda", "geyim", "student discount", "TələbəPlus", "Tələbə Plus",
   "endirim", "çanta endirimi", "canta endirimi", "aksesuar endirimi"
 ],
-    "image_url": "public\\data\\images\\CoccinelleParkBulvar.avif"
+    "mobile_image_url": "public\\data\\images\\CoccinelleParkBulvar.avif",
+    "desktop_image_url": "public\\data\\images\\CoccinelleParkBulvar.avif"
   }
   
 ]
