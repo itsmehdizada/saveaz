@@ -108,7 +108,7 @@
         "locations": ["28 May"],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
-        "image_url": "public\\data\\images\\PilatesSky.avif",
+        "image_url": "public\\data\\images\\modal\\PilatesSkyModal.webp",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.5401701956885!2d49.8388732751481!3d40.38448485760265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d0001ad7489%3A0xdf57b19c5cc3fae0!2sPilates%20Sky%20RB!5e1!3m2!1str!2saz!4v1754308166239!5m2!1str!2saz",
         "contact_info": [
           { "type": "phone", "value": "+994 50 520 87 80" },
@@ -150,7 +150,7 @@
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Buketeria.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.8980957285366!2d49.871580294895104!3d40.39680358994809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d006f04e619%3A0x4d3c138a98bac937!2sBuketeria!5e1!3m2!1str!2saz!4v1754310127459!5m2!1str!2saz",
-        "contact": [
+        "contact_info": [
           {"type": "phone", "value": "+994 50 964 22 44"},
           {"type": "instagram", "value": "@buketeria.az"}
         ]
@@ -169,7 +169,7 @@
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\MITAcademy.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.535538392832!2d49.824817975148086!3d40.38460785759507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb0e11bec7%3A0x26204c2b5ad8c10c!2sMIT%20Academy!5e1!3m2!1str!2saz!4v1753259661527!5m2!1str!2saz",
-        "contact": [
+        "contact_info": [
           {"type": "phone", "value": "+994 70 292 92 70"},
           {"type": "email", "value": "info@mitacademy.edu.az"},
           {"type": "instagram", "value": "@mitacademy.az"}
@@ -189,7 +189,7 @@
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\Joma.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.0575179315256!2d49.84712447514731!3d40.37074445843825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2sPark%20Bulvar!5e1!3m2!1str!2saz!4v1753453217471!5m2!1str!2saz",
-        "contact": [
+        "contact_info": [
           {"type": "instagram", "value": "@joma_azerbaijan"}
         ]
       },
@@ -207,7 +207,7 @@
         "requirements": ["Tələbə+ kartı tələb olunur"],
         "image_url": "public\\data\\images\\BlueOptika.avif",
         "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.6317731758445!2d49.83848227634489!3d40.37932075761213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d069c7cfa3b%3A0x9f42022884cf48d7!2sBlue%20Optics!5e0!3m2!1str!2saz!4v1754568330171!5m2!1str!2saz",
-        "contact": [
+        "contact_info": [
           {"type": "instagram", "value": "@blueoptika"}
         ]
       }
@@ -286,8 +286,12 @@
         "locations": ["İnşaatçılar mts."],
         "valid_from_until": ["Hal hazırda qüvvədədir"],
         "requirements": ["Tələbə+ kartı tələb olunur"],
-        "image_url": "public\\data\\images\\BerlinAile.avif",
-        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11767.587395016439!2d49.800117829832054!3d40.3881384832904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030870772989ee3%3A0xd2121de0b16e18c3!2zQmVybGluIEFpbMmZIHbJmSBVxZ9hcSBLbGluaWthc8SxLUJFUkzEsE4gSE9TUMSwVEFM!5e1!3m2!1str!2saz!4v1754645645852!5m2!1str!2saz"
+        "image_url": "public\\data\\images\\modal\\BerlinAileModal.webp",
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11767.587395016439!2d49.800117829832054!3d40.3881384832904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030870772989ee3%3A0xd2121de0b16e18c3!2zQmVybGluIEFpbMmZIHbJmSBVxZ9hcSBLbGluaWthc8SxLUJFUkzEsE4gSE9TUMSwVEFM!5e1!3m2!1str!2saz!4v1754645645852!5m2!1str!2saz",
+        "contact_info": [
+          { "type": "phone", "value": "+994 50 275 93 60" },
+          { "type": "instagram", "value": "@berlinhospital" }
+        ]
       },
       {
         "id": 16,
