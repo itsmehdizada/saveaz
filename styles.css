@@ -399,7 +399,7 @@ body {
 .rating {
     display: flex;
     gap: 0.25rem;
-
+    display: none;
 }
 
 .rating i {
@@ -1423,15 +1423,6 @@ body {
         padding: 0.1rem 0.5rem;
         font-size: 0.75rem;
     }
-    
-    .discount-card .card-content {
-        flex: 1;
-        padding: 0.5rem 1rem;
-        align-self: stretch;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
 
     .discount-card .card-content h3 {
         font-size: 1.1rem;
@@ -1667,7 +1658,7 @@ body {
 
     .discount-card .card-content {
         flex: 1;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0rem 0.5rem 0.5rem;
         align-self: stretch;
         display: flex;
         flex-direction: column;
